@@ -6,9 +6,9 @@ As a 10th-grade student, I recently started learning Python through online lectu
 ## What I Learned 📘🤗
 
 ### 1. Variables and Data Types
-A variable is like a box where I can store information.
+- A variable is like a box where I can store information.
 
-I practiced with int, float, str, and bool:
+- I practiced with *int, float, str, and bool*:
 
         age = 15 → integer
 
@@ -18,23 +18,23 @@ I practiced with int, float, str, and bool:
 
         is_student = True → boolean
 
-        I understood that the = sign doesn’t mean “equals” in math—it means “store this value.”
+- I understood that the ` = ` sign doesn’t mean “equals” in math—it means “store this value.”
 
-Variables are like containers that hold information, and data types define what kind of information is stored. For example, integers store whole numbers, floats store decimals, strings store text, and booleans store True/False values.
+- Variables are like containers that hold information, and data types define what kind of information is stored. For example, integers store whole numbers, floats store decimals, strings store text, and booleans store True/False values.
 ### 2. Collections 📚
 
-Lists: Ordered, changeable sequences. Example: subjects = ["Maths", "Physics", "CS"].
+- *Lists:* Ordered, changeable sequences. `Example: subjects = ["Maths", "Physics", "CS"]`.
 
-Dictionaries: Key-value pairs, like a student profile.    Example:student = {"name": "Priya", "grade": 11, "score": 92}.
+- *Dictionaries:* Key-value pairs, like a student profile.    `Example:student = {"name": "Priya", "grade": 11, "score": 92}`.
                  
-I learned when to use lists (for marks, names) and when to use dicts (for structured info).
+- I learned when to use lists (for marks, names) and when to use dicts (for structured info).
 
 
-Collections are ways to group multiple pieces of data together. Lists store ordered items, while dictionaries store key-value pairs that make data more structured and easier to access.
+- Collections are ways to group multiple pieces of data together. Lists store ordered items, while dictionaries store key-value pairs that make data more structured and easier to access.
 
 ### 3. Control Flow
 
-Using if, elif, and else, I built a grade calculator: 
+- Using *if, elif, and else*, I built a grade calculator: 
 
         score = 85
         if score >= 90:
@@ -44,45 +44,45 @@ Using if, elif, and else, I built a grade calculator:
         else:
            grade = "C"
 
-This taught me how computers make decisions step by step.
+- This taught me how computers make decisions step by step.
 
-Control flow allows the program to make decisions based on conditions. Using if, elif, and else, we can guide the program to choose different paths depending on the values it checks.
+- Control flow allows the program to make decisions based on conditions. Using `if, elif, and else`, we can guide the program to choose different paths depending on the values it checks.
 
 ### 4. Loops 🔁
-For loops helped me repeat tasks:
+- For loops helped me repeat tasks:
 
         for subject in subjects:
             print(f"Studying {subject}")
 
 
-I also used range() to run loops a fixed number of times.
+- I also used `range()` to run loops a fixed number of times.
 
 
-Loops help us repeat actions without writing the same code many times. A for loop is useful when we want to go through items in a list or run a block of code a fixed number of times.
+- Loops help us repeat actions without writing the same code many times. A for loop is useful when we want to go through items in a list or run a block of code a fixed number of times.
 
 
 ### 5. Functions 🛠️
-Functions are reusable recipes. Instead of writing the same calculation many times, I wrote:
+- Functions are reusable recipes. Instead of writing the same calculation many times, I wrote:
 
       def calculate_percentage(marks):
           total = sum(marks)
           return total / (len(marks) * 100) * 100
 
 
-Functions are reusable blocks of code that perform specific tasks. They make programs shorter, cleaner, and easier to understand by avoiding repetition.
+- Functions are reusable blocks of code that perform specific tasks. They make programs shorter, cleaner, and easier to understand by avoiding repetition.
 
 ### 6. f-Strings and List Comprehensions
-f-strings made printing easy:
+- *f-strings made printing easy:*
 
       print(f"My name is {name} and I am {age}")
 
 
-List comprehensions let me write one-line loops:
+- *List comprehensions let me write one-line loops:*
 
       squares = [x**2 for x in range(10)]
 
 
-f-Strings make it simple to insert variables directly into text, which is very useful for displaying results. List comprehensions allow us to create new lists in a single line by applying logic or transformations to existing data.
+- f-Strings make it simple to insert variables directly into text, which is very useful for displaying results. List comprehensions allow us to create new lists in a single line by applying logic or transformations to existing data.
 
 
 
