@@ -1,13 +1,13 @@
 # ⚡ NumPy for Machine Learning
 
 ## 🖥️ Why NumPy?
-- Python is the language, but pure Python lists are slow for large-scale data.
+- *Python* is the language, but pure Python lists are slow for large-scale data.
 
-- NumPy (Numerical Python) provides fast, efficient arrays written in C.
+- *NumPy (Numerical Python)* provides fast, efficient arrays written in C.
 
 - Operations on millions of numbers take milliseconds instead of minutes.
 
-- Every AI framework (PyTorch, TensorFlow, scikit-learn, Pandas) relies on NumPy arrays.
+- Every AI framework (PyTorch, TensorFlow, scikit-learn, Pandas) relies on *NumPy arrays*.
 
 
       import numpy as np
@@ -32,13 +32,13 @@
 
 
 ## 🚀 Speed Test
-- Doubling 1 million numbers:
+- Doubling *1 million* numbers:
 
 - Python list → ~`0.0812s`
 
 - NumPy array → ~`0.0018s`
 
-- ~45× faster because NumPy skips Python loops and uses optimized C operations.
+- *~45× faster* because NumPy skips Python loops and uses optimized C operations.
 
 
 
@@ -80,7 +80,7 @@
 
 - Useful for creating test data quickly.
 
-- Identity and diagonal matrices are critical in linear algebra.
+- Identity and diagonal matrices are critical in *linear algebra*.
 
       zeros = np.zeros((3,3))
       ones = np.ones((2,4))
@@ -94,7 +94,7 @@
 
 
 ## 🎲 Random Arrays
-- `np.random.rand(3,3)` → random floats between 0–1.
+- `np.random.rand(3,3)` → random floats between *0–1*.
 
 - `np.random.randint(1,7,size=10)` → random integers (like dice rolls).
 
@@ -120,7 +120,7 @@
 ## ➕ Vectorized Math
 - Operations apply to all elements without loops.
 
-- Example: scores + 5 adds 5 to every element.
+- Example: *scores + 5 adds 5 to every element*.
 
 - Supported operators: `+, -, *, /, **.`
 
@@ -158,7 +158,7 @@
 
 ## 📡 Broadcasting
 
-- Operates on arrays of different shapes.
+- Operates on arrays of *different shapes*.
 
 - Example: scores / 100 normalizes values between 0–1.
 
@@ -181,11 +181,11 @@
 ## 🔢 Indexing & Slicing
 - Access elements by `[row, column]`.
 
-- `matrix[1,:]` → entire row.
+- `matrix[1,:]` → *entire row*.
 
-- `matrix[:,1]` → entire column.
+- `matrix[:,1]` → *entire column*.
 
-- Slicing: `matrix[:2,1:]` → sub-matrix.
+- Slicing: `matrix[:2,1:]` → *sub-matrix*.
 
 - Reverse array: `scores[::-1]`.
 
@@ -272,7 +272,7 @@
 
 
 ## 📌 Summary
-- NumPy arrays are the foundation of ML data.
+- *NumPy arrays* are the foundation of ML data.
 
 - Operations are fast, vectorized, and memory-efficient.
 
@@ -280,7 +280,7 @@
 
 - Real-world ML data (images, audio, text, video) are all arrays.
 
-- Pixel art lab connects theory to practice.
+- *Pixel art lab* connects theory to practice.
 
 - Advanced tools: stacking, splitting, linear algebra, boolean indexing.
 
