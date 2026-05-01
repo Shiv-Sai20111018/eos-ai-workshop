@@ -10,13 +10,13 @@ As a 10th-grade student, I recently started learning Python through online lectu
 
 - I practiced with *int, float, str, and bool*:
 
-        age = 15 → integer
+`age = 15` → integer
 
-        pi = 3.14159 → float
+`pi = 3.14159` → float
 
-        name = "Shiv Sai Subramonyam" → string
+`name = "Shiv Sai Subramonyam"` → string
 
-        is_student = True → boolean
+`is_student = True` → boolean
 
 - I understood that the ` = ` sign doesn’t mean “equals” in math—it means “store this value.”
 
