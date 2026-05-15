@@ -21,6 +21,9 @@
 - [Homework A](Week%203%20HW%20\(A\).ipynb)
 - [Homework B](Week%203%20HW%20\(B\).ipynb)
 
+## Week 4
+- [Session 7A](Week%204%20\(7A\).md)
+
 ## Sessions
 - [Session 2 Colab](Session2-Colab.ipynb)
 - [Session 3 Colab](Session3-Colab.ipynb)
